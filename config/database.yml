@@ -1,0 +1,17 @@
+development:
+ adapter: postgresql
+ encoding: utf8
+ database: papperclip
+ pool: 5
+ username: mutha
+ password: 
+ host: localhost
+
+test: &test
+ adapter: postgresql
+ encoding: utf8
+ database: papperclip
+ pool: 5
+ username: mutha
+ password: 
+ host: localhost
